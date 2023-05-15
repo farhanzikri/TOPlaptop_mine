@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="frontend/librarie/bootstrap/css/bootstrap.css"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="frontend/styles/detail.css">
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"/>
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+     <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+     ></script>
+     <link rel="stylesheet" href="frontend/librarie/bootstrap/js/bootstrap.js" />
+   
+    <!-- header start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="frontend/img/pngegg (1).png" width="60" height="60" class="me-2" alt="">
+            TOPlaptop<strong>Store</strong>
+          </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ml-auto my-10 my-lg-3">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light my-2 my-sm-0" type="submit"><i data-feather="search"></i></button>
+          </form>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rigester</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="detail.html"><i data-feather="shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- Product Image -->
+    <section class="product-image">
+      <div class="">
+        <div class="row mt-5 ml-5">
+          <div class="col-5">
+            <div class="product-img">
+             <img src="frontend/img/Group 6 (1).png" class="product-img-lg img-fluid">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="product-img">
+             <img src="frontend/img/merk and price.png" class="product-img-lg img-fluid">
+            </div>
+          </div>  
+          <div class="col-3 booking-laptop">
+            <div class="container mb-5" >
+              <h6>MASUKKAN JUMLAH PRODUK</h6>
+
+              <label for="jumlah mt-5">Jumlah:</label>
+              <input
+                type="number"
+                id="jumlah"
+                name="jumlah"
+                style="width: 50px"
+
+              /><br /><br />
+          
+              <div class="harga">
+                <label for="harga">Total Harga:</label>
+              <input type="number" id="harga" name="harga" style="width: 120px;" /><br /><br />
+              </div>
+               
+              <br />
+                <br />
+                <a
+                  href="bookingpage.html"
+                  class="btn btn-keranjang"
+                  type="button"
+                  >keranjang</a
+                >
+                <br>
+                <br />
+                <a
+                  href="bookingpage.html"
+                  class="btn btn-beli"
+                  type="button"
+                  >Beli sekarang</a
+                >
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>  
+        </div>
+      </div>
+    </section>
+    <section class="product-img-small">
+      <div class="col-7">
+        <div class="row mt-2 ml-4">
+          <div class="col-3">
+           <div class="product-img-small">
+             <img src="frontend/img/Group 7 (2).png" class="product-img-sm">
+           </div>
+         </div>
+         <div class="col-3">
+           <div class="product-img-small">
+             <img src="frontend/img/Group 7 (2).png" class="product-img-sm">
+           </div>
+         </div>
+         <div class="col-3">
+           <div class="product-img-small">
+             <img src="frontend/img/Group 7 (2).png" class="product-img-sm">
+           </div>
+         </div>
+      </div>
+    </section>
+    
+   <!-- Tutup Product Image -->
+
+    <!-- awal new product -->
+    <section class="detail-product">
+      <div class="container">
+        <div class="row mt-5 ml-5">
+            <div class="col-12">
+                <div class="d-flex section-title">
+                   <h4>Detail</h4>
+                   <h4>&nbsp;Products</h4>
+                 </div>
+                </div>
+              <div class="img mt-3">
+                 <img src="frontend/img/detail product.png" alt="">
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-product">
+      <div class="container">
+        <div class="row mt-5 ml-5">
+            <div class="col-12">
+                <div class="d-flex section-title">
+                   <h4>Kelengkapan</h4>
+                   <h4>&nbsp;Products</h4>
+                 </div>
+                </div>
+              <div class="img mt-3">
+                 <img src="frontend/img/kelengkapan product.png" alt="">
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-product">
+      <div class="container">
+        <div class="row mt-5 ml-5">
+            <div class="col-12">
+                <div class="d-flex section-title">
+                   <h4>Spesifikasi</h4>
+                   <h4>&nbsp;Products</h4>
+                 </div>
+                </div>
+              <div class="img mt-3">
+                 <img src="frontend/img/spesifikasi.png" alt="">
+              </div>
+        </div>
+      </div>
+    </section>
+           
+    <!-- akhir new product -->
+
+    <!-- ulasan -->
+
+    <div class="ulasan">
+      <div class="container">
+       <div class="row">
+        <div class="col-2">
+          <div class="img mt-5 mb-5">
+            <img src="frontend/img/ulasan.png" alt="">
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="img mt-5 mb-5">
+            <textarea
+              class="comment-text"
+             placeholder="Tulis komentar Anda di sini..."
+            ></textarea>
+            <button class="comment-button">Kirim</button>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    
+    <!-- ulasan -->
+
+    <!-- reccomendation start -->
+    <section class="reccomendation">
+      <div class="container">
+         <div class="row mt-5">
+           <div class="col-12">
+             <div class="d-flex section-title">
+               <h4>Reccomendation</h4>
+             </div>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-3">
+             <a href="#" class="reccomendation-products d-block">
+               <div class="reccomendation-img mb-4">
+                 <img src="frontend/img/reccomendation-1.png" class="img-fluid" />
+               </div>
+               <div class="reccomendation-text mb-2">ASUS ROG Zephyrus Duo 16</div>
+               <div class="reccomendation-price">Rp 58.999.000.</div>
+             </a>
+           </div>
+           <div class="col-3">
+            <a href="#" class="reccomendation-products d-block">
+              <div class="reccomendation-img mb-4">
+                <img src="frontend/img/reccomendation-2.png" class="img-fluid" />
+              </div>
+              <div class="reccomendation-text mb-2">Samsung Galaxy Book Odyssey</div>
+              <div class="reccomendation-price">Rp 25.199.000,00</div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="#" class="reccomendation-products d-block">
+              <div class="reccomendation-img mb-4">
+                <img src="frontend/img/reccomendation-3.png" class="img-fluid" />
+              </div>
+              <div class="reccomendation-text mb-2">HP Laptop 14-ep0022TU</div>
+              <div class="reccomendation-price">Rp 13.799.000,00</div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="#" class="reccomendation-products d-block">
+              <div class="reccomendation-img mb-4">
+                <img src="frontend/img/reccomendation-4.png" class="img-fluid" />
+              </div>
+              <div class="reccomendation-text mb-2">LAPTOP ACER ASPIRE 5 A514</div>
+              <div class="reccomendation-price">Rp10.400.000.</div>
+            </a>
+          </div> 
+      </div>     
+    </section> 
+      <!-- reccomendation end -->
+
+
+      <!-- best seller -->
+      
+      <!-- best seller -->
+      <!-- Categoris -->
+     
+      <!-- Categoris -->
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h2>TOPLAPTOP <STrong>Store</STrong></h2>
+              <a href="#">
+                <img src="frontend/img/sosial media.png">
+              </a>
+            </div>
+            <div class="col-6 text-right">
+              <h5>Address</h5>
+              <p>Jl. Kaharuddin Nasution No.01, <br>
+                Kecamatan Marpoyan Damai, Pekanbaru, Riau 28282 <br>
+                0812-1234-578</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-small my-auto">
+        <div class="row">
+          <div class="col-12">
+            <p>2022 Copyright <a href="#">TOPlaptop.</a> All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tutup Footer -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+    
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
+
+    

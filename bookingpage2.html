@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="frontend/librarie/bootstrap/css/bootstrap.css"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="frontend/styles/Booking_page_2.css">
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"/>
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+     <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+     ></script>
+     <link rel="stylesheet" href="frontend/librarie/bootstrap/js/bootstrap.js" />
+   
+    <!-- header start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="frontend/img/pngegg (1).png" width="60" height="60" class="me-2" alt="">
+            TOPlaptop<strong>Store</strong>
+          </a>
+        </div>
+      </nav>
+
+      <br /><br />
+        <div class="container">
+          <div class="akun">
+            <img src="frontend/img/akun.png" width="30" height="40" class="me-2" alt="Gambar" />Littleboy_
+          </div>
+        </div>
+        <div class="container">
+          <div class="head-small-index">
+            <a href="index.html">Home</a> <span> / View Cart /</span> <a href="bookingpage3.html">shipping</a>
+          </div>
+        
+      </div>
+    </header>
+    </header>
+    <!-- header end -->
+
+    
+ 
+    <div class="shipping-address">
+        <div class="head">
+      <div class="container">
+            <h5 class="Booking-information mt-5">DISPATCH</h5>
+        </div>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="form-left mt-5">
+                <h5>shipping & billing address</h5>
+                <h3 style="margin-top: 40px;">FARHAN ZIKRI</h3>
+                <P style="border-bottom: 2PX solid;"> PEKANBARU,RIAU,INDONESIA <BUtton>CHANGE</BUtton> <BR>0812334778</BR></P>
+                <h5 style="margin-top: 60PX;">SHIPPING METHOD</H5>
+                  <div class="shipping-option">
+                    <button
+                      class="shipping-option__button"
+                      onclick="selectShippingOption('standard')"
+                    >
+                      <input type="radio" name="shippingOption" id="standardOption" checked />
+                    </button>
+                    <label
+                      for="standardOption"
+                      class="shipping-option__text"
+                      onclick="selectShippingOption('standard')"
+                      >Standard Shipping</label
+                    >
+                  </div>               
+                  <P style="margin-left: 40PX; border-bottom: 2PX solid;">IDR 350.000.000 ( 6- 20 DAYS BUSSINESS )</P> 
+                  <DIV class="BOTTON">
+                    <a href="bookingpage3.html" style="margin-left: 230PX; margin-top: 50px;" class="btn btn-warning" type="button">Continue</a>
+                   <br>
+                   <a href="detail.html" style="margin-left: 230px;" class="btn btn-cancel mt-3" type="button">Cancel</a>
+                   </DIV>  
+              </div>
+            </div>
+            <div>
+              <div class="garis_vertical mx-auto d-flex"></div>
+            </div>
+            <div class="form-right mt-5 ml-5">
+              <label for="name">Cupon Code</label>
+              <input class="form-control"  type="text"  id="name" placeholder="Please type here..."><button>apply</button>
+              <div class="total mt-5 ">
+                <h5>TOTAL SUMMARY </h5>
+                <p>
+                  <span>Sub Total:</span>
+                  <span style="margin-left: 25px">IDR 58.999.999</span>
+                </p>
+               </div>
+               <div class="summary mt-2">
+                <H5>
+                  <span>TOTAL</span>
+                  <span style="margin-left: 25px;">IDR 58.999.999</span>
+                </H5>
+               </div>
+               
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h2>TOPLAPTOP <STrong>Store</STrong></h2>
+              <a href="#">
+                <img src="frontend/img/sosial media.png">
+              </a>
+            </div>
+            <div class="col-6 text-right">
+              <h5>Address</h5>
+              <p>Jl. Kaharuddin Nasution No.01, <br>
+                Kecamatan Marpoyan Damai, Pekanbaru, Riau 28282 <br>
+                0812-1234-578</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-small my-auto">
+        <div class="row">
+          <div class="col-12">
+            <p>2022 Copyright <a href="#">TOPlaptop.</a> All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tutup Footer -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+    
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
+
+    
